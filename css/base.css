@@ -3,6 +3,13 @@ html, body, * {
 	color: white;
 	font-family: 'Open Sans', sans-serif;
 	outline: none;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+p {
+	letter-spacing: 0.04em;
 }
 
 button {
