@@ -102,6 +102,10 @@ nav {
 	margin-top: 5em;
 }
 
+#content-wrapper p {
+  padding-left: 0.5em;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -116,27 +120,20 @@ li a {
   color: white;
   font-weight: 900;
 }
-
 #bottom-wrapper {
-	background-color: #08080c;
-	height: 5em;
-	
-	position: absolute;
-	bottom: 1em;
-	left: 1em;
-	right: 1em;
+	margin-top: 3em;
 }
 
 #bottom-wrapper div {
     display: block;
-    float: left;
-    width: 45%;
     padding: 1em;
 	color: #d0d0d0;
+	background-color: #08080c !important;
+	margin-bottom: 5px;
 }
 
 #bottom-wrapper div:hover {
-	background-color: #000000;
+	background-color: #000000 !important;
 	cursor:pointer;
 }
 
@@ -146,4 +143,12 @@ li a {
 
 #bottom-wrapper div, #bottom-wrapper strong {
 	background-color: transparent;
+}
+
+#bottom-wrapper img {
+	background-color: transparent;
+    height: 45px;
+    display: block;
+    float: left;
+    padding-right: 1em;
 }
