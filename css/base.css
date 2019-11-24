@@ -1,8 +1,9 @@
 html, body, * {
-	background-color: #190529;
+	background-color: #111119;
 	color: white;
 	font-family: 'Open Sans', sans-serif;
 	outline: none;
+	
 	-webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
@@ -14,4 +15,77 @@ p {
 
 button {
 	cursor: pointer;
+}
+
+#wrapper {
+	margin-top: 10%;
+	width: 50%;
+	min-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 2.5em;
+	font-weight: 100;
+	letter-spacing: 0.05em;
+}
+
+h1 strong {
+	color: #bceab4;
+	font-weight: bold;
+}
+
+input[type='text'] {
+	border: 1px solid #191b27;
+    padding: 0.35em 0.75em 0.30em 0.75em;
+    background: #0b0d19;
+    font-size: 0.95em;
+    color: white;
+		
+
+}
+
+input[type='text']:focus {
+	border: 1px solid #575d86;
+	transition: 0.5s;
+}
+
+/* Change the white to any color ;) */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px #0b0d19 inset !important;
+	-webkit-text-fill-color: white !important;
+}
+
+button {
+	font-family: 'Poppins', sans-serif;
+    padding: 0.35em 1.1em;
+    background: #252738;
+    border-radius: 0.5em;
+    color: white;
+    border: 1px solid #252738;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+button:hover {
+    background: #2d2f42;
+	transition: 0.5s;
+}
+
+#logo {
+	font-weight: 900;
+}
+
+nav {
+	
+}
+
+#content-wrapper {
+
 }

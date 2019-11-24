@@ -1,0 +1,27 @@
+.team-option {
+    color: #ffffff;
+    background: #121420;
+    line-height: 3em;
+    padding: 1.5em;
+	margin:0;
+}
+
+h2 {
+    background-color: #050714;
+    margin: 0;
+    font-size: 1em;
+    font-weight: 100;
+    margin-top: 1em;
+    padding: 0.5em 2em;
+}
+
+label {
+	display: block;
+	background: #121420;
+	color: #a9a9a9;
+}
+
+input[type='text'] {
+	position:relative;
+	top:-0.75em;
+}
